@@ -1,0 +1,7 @@
+name = "PMI"
+uuid = "430b9b6a-ac6d-4acb-aa7c-f6c2aea375ca"
+authors = ["Valentin Churavy <v.churavy@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
