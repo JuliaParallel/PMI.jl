@@ -8,6 +8,9 @@ function __init__()
     if haskey(ENV, "PMI_LIBRARY")
         __libpmi[] = ENV["PMI_LIBRARY"]
     end
+    if haskey(ENV, "FLUX_PMI_LIBRARY_PATH")
+        __libpmi[] = ENV["FLUX_PMI_LIBRARY_PATH"]
+    end
 end
 
 const PMI_SUCCESS = Cint(0) # operation completed successfully
